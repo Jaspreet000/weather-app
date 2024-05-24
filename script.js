@@ -37,7 +37,7 @@ const weatherIcons = {
 
 const fetchData = (city) => {
     // Replace with your API key
-    const apiKey = "4abc002eeedbcf9c0747394516716c28";
+    const apiKey = "your_api_key";
 
     // Use fetch to make a request to the Weather API
     const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
